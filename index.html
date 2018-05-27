@@ -1,0 +1,131 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8">
+<title>Resume</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Raleway:500,200,700" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
+
+<link href="https://unpkg.com/material-resume@1.0.1/resume.min.css" rel="stylesheet">
+<script src="https://unpkg.com/material-resume@1.0.1/resume.min.js"></script>
+
+</head><body ng-app="Resume" ng-cloak="">
+    <resume>
+        <resume-heading first-name="Omar" last-name="Ali Said" linkedin="OmarAli-S" github="OmarAliSaid" email="omarali0252@gmail.com" phone="01064989250">
+        </resume-heading>
+        <resume-body>
+            <resume-column flex="20">
+                <sidebar-category name="Education">
+                    <p>Computers and Information</p>
+                    <p>Cairo University</p>
+                    <p>Graduated 2016</p>
+                    <p>GPA - 2.8</p>
+                </sidebar-category>
+                <sidebar-category name="Military Service">
+                    <p>Performed</p>
+                </sidebar-category>
+                <sidebar-category name="Language">
+                    <p>English</p>
+                </sidebar-category>
+                <sidebar-category name="Portfolio">
+                    <p><a href="https://www.freelancer.com/u/OmarAliSaid">freelancer.com</a></p>
+                    <p><a href="https://mostaql.com/u/Omar_Ali0252/reviews">mostaql.com</a></p>
+                </sidebar-category>
+            </resume-column>
+            <resume-column flex="80">
+                <category name="Professional Experience">
+                      <category-item title="Android Developer" subtitle="Freelancer">
+                        <li>+3 years experience working as Freelancer with 6 apps on the store.</li>
+                        <li>Responsible for gathering and analyising client requirments .</li>
+                        <li>fully aware of software development life cycle starting from gathring requirements to product launching .</li>
+                        <li>Applies the best possible performance, quality, and responsiveness of the application.</li>
+                    </category-item>
+                    <category-item title="Android Development Trainer" subtitle="TREE (2016)">
+                        <li>TREE is studnet activity based in cairo university.</li>
+                        <li>My resposibilty include but not limited to teaching students the basics of android development.</li>
+                        <li>Helping them to understand the big picture of creating apps from A-Z.</li>
+                    </category-item>
+                    <category-item title="Software Development Intern" subtitle="IBM (Feb 2016)">
+                        <li>Learning and understanding the concept of GUI mirroring</li>
+                        <li>Collaborated with other interns on design</li>
+                        <li>Used java to mirror sass files based on enhanced overriding technique</li>
+                    </category-item>
+                    <category-item title="Android Developement Trainee" subtitle="Google/MCIT (Nov 2015)">
+                        <li>Android Development scholarship provided by Google/MCIT and Udacity.</li>
+                        <li>Depth learning and understanding of android concepts .</li>
+                        <li>Developed Movie app to view different type of movies .</li>
+                    </category-item>
+                </category>
+                
+                <category name="Projects">
+                     <category-item title="SHORK" subtitle="Jan 2018">
+                        <li>first application of its kind in the Arab world to  link between the members of consultants and psychologists</li>
+                        <li>Integration with Firebase messaging , Retrofit , RXjava and other libraries</li>
+                        <li><a href="https://play.google.com/store/apps/details?id=com.tocaan.shork">Check it on Google Play</a></li>
+                    </category-item>
+                    <category-item title="GITEX TV" subtitle="Des 2017">
+                        <li>Android app that accepts Credit and VISA card payments to renew subscription </li>
+                        <li>Integration with Stripe payment sdk and node.js as backend</li>
+                        <li><a href="https://play.google.com/store/apps/details?id=com.devart.gitexpayment">Check it on Google Play</a></li>
+                    </category-item>
+                    <category-item title="Layfotak" subtitle="Oct 2017">
+                        <li>Android app that views diffrent type of events in Sudi Arabia  </li>
+                        <li>Integration with GoogleMaps , Facebook , Twitter api's and Firebase authentication and database</li>
+                        <li><a href="https://play.google.com/store/apps/details?id=com.devart.layfootak">Check it on Google Play</a></li>
+                    </category-item>
+                    <category-item title="Learn Turki Language" subtitle="July 2017">
+                        <li>Android app that help beginners to learn Turki language</li>
+                        <li>Integrations with Google Text to Speach api</li>
+                        <li>Used sqlite database for offline storage</li>
+                        <li>Firebase database and Notification to add and notify users with new words</li>
+                        <li><a href="https://play.google.com/store/apps/details?id=com.devart.arabturkey">Check it on Google Play</a></li>
+                    </category-item>
+                    <category-item title="PayPal Example" subtitle="June 2016">
+                        <li>open source project for Mini E-commerce Android app that uses PayPal payment gateway</li>
+                        <li>Node.js backend server to verify payments and store payment information in firebase</li>
+                        <li>Integrations with PayPal , Facebook api's </li>
+                        <li>Firebase database to store products and Firebase Admin to allow firebase access from backend</li>
+                        <li><a href="https://github.com/OmarAliSaid/android-paypal-example">Check it on Github</a></li>
+                    </category-item>
+                    <category-item title="NAVIGUER.DZ" subtitle="Jan 2017">
+                        <li>Android app that connects business owners with clients through Google Maps</li>
+                        <li>Integrations with GoogleMaps , Firebase database , analytics , authentication and messaging</li>
+                        <li>One-to-One chat implementation using Firebase</li>
+                        <li><a href="https://play.google.com/store/apps/details?id=com.androidtech.around">Check it on Google Play</a></li>
+                    </category-item>
+                    <category-item title="Al-menbar" subtitle="Aug 2016">
+                        <li>Islamic Android app that let you listen and download islamic lessons and suras</li>
+                        <li>Integrations with Firebase database </li>
+                        <li><a href="https://play.google.com/store/apps/details?id=com.androidtech.isl">Check it on Google Play</a></li>
+                    </category-item>
+                    <category-item title="MovLine" subtitle="May 2015">
+                        <li>Android app that let you view different types of movies</li>
+                        <li>Integrations with themoviedb and Facebook api's </li>
+                    </category-item>
+                </category>
+                <category name="Skills">
+                    <category-item title="TECHNICAL">
+                        <li>Experience working with remote data via REST and JSON</li>
+                        <li>Experience with cloud message APIs and push notifications</li>
+                        <li>Experience working with third-party libraries and API's </li>
+                        <li>Experience with offline storage, threading</li>
+                        <li>Experience with Firebase Services</li>
+                        <li>Proficient understanding of code versioning tools, such as Git</li>
+                    </category-item>
+                    <category-item title="PERSONAL">
+                        <li>Ability to understand business requirements and translate them into technical requirements</li>
+                        <li>Team work ability</li>
+                        <li>Time management </li>
+                        <li>patience</li>
+                    </category-item>
+                </category>
+            </resume-column>
+        </resume-body>
+    </resume>
+
+
+</body></html>
