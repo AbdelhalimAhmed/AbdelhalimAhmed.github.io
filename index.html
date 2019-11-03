@@ -1,123 +1,468 @@
-<!DOCTYPE html><html><head><meta charset="UTF-8">
-<title>ِAbdelhalimAhmedResume</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css?family=Raleway:500,200,700" rel="stylesheet">
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Orbit - Bootstrap 4 Resume/CV Template for Developers</title>
 
-<link href="https://unpkg.com/material-resume@1.0.1/resume.min.css" rel="stylesheet">
-<script src="https://unpkg.com/material-resume@1.0.1/resume.min.js"></script>
+    <!-- Meta -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Responsive HTML5 Resume/CV Template for Developers"
+    />
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- FontAwesome JS -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"
+      integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Global CSS -->
+    <link
+      rel="stylesheet"
+      href="assets/plugins/bootstrap/css/bootstrap.min.css"
+    />
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/orbit-1.css" />
+  </head>
 
-</head><body ng-app="Resume" ng-cloak="">
-    <resume>
-        <resume-heading first-name="Abdelhalim" last-name="Ahmed" linkedin="abdelhalim-ahmed" github="AbdelhalimAhmed" email="abdelhalim.ahmed95@gmail.com" phone="+201129669044">
-        </resume-heading>
-        <resume-body>
-            <resume-column flex="20">
-                <sidebar-category name="Education">
-                    <p>Computer Science and Information Technology</p>
-                    <p>Cairo University</p>
-                    <p>Graduated 2017</p>
-                    <!-- <p>GPA - 2.8</p> -->
-                </sidebar-category>
-                <sidebar-category name="Military Service">
-                    <p>Exemption</p>
-                </sidebar-category>
-                <sidebar-category name="Language">
-                    <p>Arabic</p>
-                    <p>English</p>
-                </sidebar-category>
-                <sidebar-category name="Apps Worked on">
-                    <p><a href="https://1drv.ms/w/s!AhQbR9MG86DjgphvwI6u21KRzFcWrA">Apps</a></p>
-                </sidebar-category>
-            </resume-column>
-            <resume-column flex="80">
-                <category name="Professional Experience">
-                      <category-item title="React-native Developer" subtitle="Teeela (Dec 2018 - Present)">
-                        <li>Develop and enhancement on Teeela App using react-native, Redux, Thunk, Integrate with Magento backend.</li>
-                        <li>Refactoring code to using Hooks, TypeScript and make the scalable project structure.</li>
-                        <li>Git flow and using Agile project management.</li>
-                      </category-item>
-                      <category-item title="React-Native Developer" subtitle="Shopz.io (Dec 2016 - Dec 2018)">
-                        <li>2 years of experience working with 7 apps on the store.</li>
-                        <li>Develop using Apollo-Client with GraphQl with react-native.</li>
-                        <li>Develop Reseller-Dashboard using Reactjs, Redux, Saga, Parse SDK.</li>
-                        <li>Git flow and using Agile project management.</li>
-                        <li>Analyze user needs and software requirements to determine the feasibility of design within time and cost constraints.</li>
-                    </category-item>
-                    <category-item title="React-Native Developer (Part-Time && Consaltant)" subtitle="Elmawkaa (Apr 2018 - Jan 2019)">
-                        <li>Develop and refactor Elmawkaa-App using react-native, firebase(firestore - cloud functions).</li>
-                        <li>Create cloud functions for firebase.</li>
-                    </category-item>
-                </category>
-                
-                <category name="Projects">
-                    <category-item title="Teeela">
-                        <li>A react-Native app that View and buy toys for kids and adults </li>
-                        <li>Using Redux, Thunk, and Integration with Magento as backend</li>
-                        <li><a href="https://play.google.com/store/apps/details?id=com.teeelamob&referrer=adjust_reftag%253DcvWAMPfdDT5gH%2526utm_source%253Dlanding%252Bpage">Check it on Google Play</a></li>
-                        <li><a href="https://itunes.apple.com/us/app/teeela/id1382234529?mt=8">Check it on App Store</a></li>
-                    </category-item>
-                     <category-item title="Shopz.io" >
-                        <li>The first application of its kind in the Middle-East to create your application and link it to your E-commerce website</li>
-                        <li>Using ApolloClient and Integration with GraphQl and node.js as backend</li>
-                        <li>Integration with opencart and woocommerce</li>
-                        <li><a href="https://shopz.io/">See the Portfolio</a></li>
-                    </category-item>
-                    <category-item title="Elmawkaa">
-                        <li>Elmawkaa is a marketplace that engages between all construction industry stakeholders in the MENA region</li>
-                        <li>Using React-Native, Redux, Saga and Integration with Firebase as backend</li>
-                        <li><a href="https://play.google.com/store/apps/details?id=com.site.moka.construction">Check it on Google Play</a></li>
-                        <li><a href="https://itunes.apple.com/us/app/%D8%A7%D9%84%D9%85%D9%88%D9%82%D8%B9/id1277773878?mt=8">Check it on App Store</a></li>
-                    </category-item>
-                    <category-item title="ساعى الخليج">
-                        <li>Application Specialist buying and selling and trading on the level of the entire Gulf</li>
-                        <li><a href="https://play.google.com/store/apps/details?id=com.malsapp.shamel">Check it on Google Play</a></li>
-                        <li><a href="https://itunes.apple.com/us/app/%D8%B3%D8%A7%D8%B9%D9%8A-%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/id1283658949?mt=8">Check it on App Store</a></li>
-                    </category-item>
-                    <category-item title="IDAPP">
-                        <li>An application that lets you collect your social networking accounts in one place so you can easily reach and find other people easily and follow them up</li>
-                        <li>Using Mobx, Parse SDK</li>
-                        <li><a href="https://play.google.com/store/apps/details?id=com.idapp&hl=en">Check it on Google Play</a></li>
-                    </category-item>    
-                </category>
-                <category name="Skills">
-                    <category-item title="TECHNICAL">
-                        <li>Passionate about learning new technology</li>
-                        <li>Experience working with third-party libraries and API's </li>
-                        <li><a href="https://www.hackerrank.com/halimahmed">Good Experience on Problem Solving</a></li>
-                        <li>Basic Knowledge ( C – C++ – Java – Python – Swift– Android )</li>
-                        <li>Good Researcher about the issue and how to fix it</li>
-                    </category-item>
-                    <category-item title="PERSONAL">
-                        <li>Ability to understand business requirements and translate them into technical requirements</li>
-                        <li>Team workability</li>
-                        <li>Time management </li>
-                        <li>patience</li>
-                    </category-item>
-                </category>
-                <category name="Training">
-                    <category-item title="Namaa" subtitle="Naser City, Cairo (Sep 2016 – Oct 2016)">
-                        <li>Learning and Develop with React-Native</li>
-                        <li>Develop News app</li>
-                    </category-item>
-                    <category-item title="Google/MCIT" subtitle="American University, Cairo (Jul 2016 – Sep 2016 )">
-                        <li>Android Development scholarship provided by Google/MCIT and Udacity.</li>
-                        <li>Develop Movie app</li>
-                    </category-item>
-                    <category-item title="CULTNAT" subtitle="Smart village, Cairo (Jun 2015 – Aug 2015)">
-                        <li>Learning and Develop Gaming with C# and unity</li>
-                        <li>Develop two games (2D - 3D)</li>
-                    </category-item>
-                </category>
-            </resume-column>
-        </resume-body>
-    </resume>
+  <body>
+    <div class="wrapper">
+      <div class="sidebar-wrapper">
+        <div class="profile-container">
+          <img class="profile" src="assets/images/profile.png" alt="" />
+          <h1 class="name">Abdelhalim Abdelsadek</h1>
+          <h3 class="tagline">Mobile Developer</h3>
+        </div>
+        <!--//profile-container-->
 
+        <div class="contact-container container-block">
+          <ul class="list-unstyled contact-list">
+            <li class="email">
+              <i class="fas fa-envelope"></i
+              ><a href="mailto: abdelhalim.ahmed95@gmail.com"
+                >abdelhalim.ahmed95@gmail.com</a
+              >
+            </li>
+            <li class="phone">
+              <i class="fas fa-phone"></i
+              ><a href="tel:+201129669044">+201129669044</a>
+            </li>
 
-</body></html>
+            <li class="linkedin">
+              <i class="fab fa-linkedin-in"></i
+              ><a
+                href="https://linkedin.com/in/abdelhalim-ahmed"
+                target="_blank"
+                >abdelhalim-ahmed</a
+              >
+            </li>
+            <li class="github">
+              <i class="fab fa-github"></i
+              ><a href="https://github.com/AbdelhalimAhmed" target="_blank"
+                >AbdelhalimAhmed</a
+              >
+            </li>
+            <li class="medium">
+              <i class="fab fa-medium"></i
+              ><a href="https://medium.com/@abdelhalim.ahmed95" target="_blank"
+                >@abdelhalim.ahmed95</a
+              >
+            </li>
+            <li class="website">
+              <i class="fas fa-rocket"></i
+              ><a href="https://www.hackerrank.com/halimahmed" target="_blank"
+                >hackerrank/halimahmed</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!--//contact-container-->
+        <div class="education-container container-block">
+          <h2 class="container-block-title">Education</h2>
+          <div class="item">
+            <h4 class="degree">MSc in Computer Science</h4>
+            <h5 class="meta">University of Cairo</h5>
+            <div class="time">2012 - 2017</div>
+          </div>
+          <!--//item-->
+          <!-- <div class="item">
+            <h4 class="degree">BSc in Applied Mathematics</h4>
+            <h5 class="meta">Bristol University</h5>
+            <div class="time">2007 - 2011</div>
+          </div> -->
+          <!--//item-->
+        </div>
+        <!--//education-container-->
+
+        <div class="languages-container container-block">
+          <h2 class="container-block-title">Languages</h2>
+          <ul class="list-unstyled interests-list">
+            <li>Arabic <span class="lang-desc">(Native)</span></li>
+            <li>English <span class="lang-desc">(Professional)</span></li>
+            <!-- <li>Spanish <span class="lang-desc">(Professional)</span></li> -->
+          </ul>
+        </div>
+        <!--//interests-->
+
+        <div class="interests-container container-block">
+          <h2 class="container-block-title">Interests</h2>
+          <ul class="list-unstyled interests-list">
+            <li>Reading</li>
+            <li>Tennis</li>
+            <li>Swimming</li>
+            <li>Travel</li>
+            <li>Gaming</li>
+          </ul>
+        </div>
+        <!--//interests-->
+      </div>
+      <!--//sidebar-wrapper-->
+
+      <div class="main-wrapper">
+        <section class="section summary-section">
+          <h2 class="section-title">
+            <span class="icon-holder"><i class="fas fa-user"></i></span>Career
+            Profile
+          </h2>
+          <div class="summary">
+            <p>
+              I’m a mobile developer with almost 3 years experience, My main
+              stack is React-native, and I have a little background with
+              swift(my learning path) ios and java android, Launched many apps
+              on both stores, I passionate about Problem Solving with
+              JavaScript, As I’m a CO-Founder & software engineer at
+              <a href="https://4sa.store" target="_blank">4sa.store</a>, So I
+              prefer to work in startups to get more challenges.
+            </p>
+          </div>
+          <!--//summary-->
+        </section>
+        <!--//section-->
+
+        <section class="section experiences-section">
+          <h2 class="section-title">
+            <span class="icon-holder"><i class="fas fa-briefcase"></i></span
+            >Experiences
+          </h2>
+
+          <div class="item">
+            <div class="meta">
+              <div class="upper-row">
+                <h3 class="job-title">Mobile Developer | React-native</h3>
+                <div class="time">2018 - Present</div>
+              </div>
+              <!--//upper-row-->
+              <div class="company">Teeela, Kuwait</div>
+            </div>
+            <!--//meta-->
+            <div class="details">
+              <li>
+                Develop and enhancement on Teeela App using react-native, Redux,
+                Thunk, Integrate with Magento backend.
+              </li>
+              <li>
+                Refactoring code to using Hooks, TypeScript and make the
+                scalable project structure.
+              </li>
+              <li>Git flow and using Agile project management.</li>
+            </div>
+            <!--//details-->
+          </div>
+          <!--//item-->
+
+          <div class="item">
+            <div class="meta">
+              <div class="upper-row">
+                <h3 class="job-title">JavaScript Developer</h3>
+                <div class="time">2016 - 2018</div>
+              </div>
+              <!--//upper-row-->
+              <div class="company">Shopz.io, Egypt</div>
+            </div>
+            <!--//meta-->
+            <div class="details">
+              <li>
+                Develop and launched 7 different apps on both stores using
+                React-native, Redux, Mobx and Saga.
+              </li>
+              <li>
+                Develop "Shopz.io" app using React-native with Apollo-Client and
+                GraphQl.
+              </li>
+              <li>
+                Develop Reseller-Dashboard using Reactjs, Redux, Saga and Parse
+                SDK.
+              </li>
+              <li>
+                Manage with the team for using Git flow and Agile project
+                management.
+              </li>
+              <li>
+                Analyze user needs and software requirements to determine the
+                feasibility of design within time.
+              </li>
+            </div>
+            <!--//details-->
+          </div>
+          <!--//item-->
+
+          <div class="item">
+            <div class="meta">
+              <div class="upper-row">
+                <h3 class="job-title">Freelancer React-native Developer</h3>
+                <div class="time">2018 - 2019</div>
+              </div>
+              <!--//upper-row-->
+              <div class="company">Elmawkaa, Egypt</div>
+            </div>
+            <!--//meta-->
+            <div class="details">
+              <li>
+                Develop and refactor Elmawkaa app using React-native, Redux,
+                Thunk and firebase(firestore - cloud functions).
+              </li>
+              <li>Create cloud functions for firebase.</li>
+            </div>
+            <!--//details-->
+          </div>
+
+          <div class="item">
+            <div class="meta">
+              <div class="upper-row">
+                <h3 class="job-title">Freelancer JavaScript Developer</h3>
+                <div class="time">2017 - 2018</div>
+              </div>
+              <!--//upper-row-->
+              <div class="company">MK Corp. s.r.o, Czech Republic</div>
+            </div>
+            <!--//meta-->
+            <div class="details">
+              <li>
+                Develop Rofl.Zone App using using React-native with
+                Apollo-Client and GraphQl.
+              </li>
+              <li>Modify and fix bugs on T7ps web app using Vue.js.</li>
+            </div>
+            <!--//details-->
+          </div>
+          <!--//item-->
+        </section>
+        <!--//section-->
+
+        <section class="section projects-section">
+          <h2 class="section-title">
+            <span class="icon-holder"><i class="fas fa-archive"></i></span
+            >Projects
+          </h2>
+          <!--//intro-->
+          <div class="item">
+            <span class="project-title"><a href="#hook">Teeela</a></span> -
+            <span class="project-tagline"
+              >An e-commerce app that selling toys for kids and adults
+              <li>
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.teeelamob&referrer=adjust_reftag%253DcvWAMPfdDT5gH%2526utm_source%253Dlanding%252Bpage"
+                  target="_blank"
+                  >Check it in Google Play</a
+                >
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://itunes.apple.com/us/app/teeela/id1382234529?mt=8"
+                  >Check it in App Store</a
+                >
+              </li>
+            </span>
+          </div>
+          <!--//item-->
+          <div class="item">
+            <span class="project-title"
+              ><a href="https://shopz.io/" target="_blank">Shopz.io</a></span
+            >
+            -
+            <span class="project-tagline"
+              >An e-commerce app that buying and selling products.
+            </span>
+          </div>
+          <!--//item-->
+          <div class="item">
+            <span class="project-title"><a href="#hook">Elmawkaa</a> </span>
+            -
+            <span class="project-tagline"
+              >A mobile app marketplace that engages between all construction
+              industry stakeholders in the MENA region.
+              <li>
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.site.moka.construction"
+                  target="_blank"
+                  >Check it in Google Play</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://itunes.apple.com/us/app/%D8%A7%D9%84%D9%85%D9%88%D9%82%D8%B9/id1277773878?mt=8"
+                  target="_blank"
+                  >Check it in App Store</a
+                >
+              </li></span
+            >
+          </div>
+          <!--//item-->
+          <div class="item">
+            <span class="project-title"><a href="#hook">Shamel</a></span>
+            -
+            <span class="project-tagline"
+              >An e-commerce app that buying and selling and trading on the
+              level of the entire Gulf.
+              <li>
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.malsapp.shamel"
+                  target="_blank"
+                  >Check it in Google Play</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://itunes.apple.com/us/app/%D8%B3%D8%A7%D8%B9%D9%8A-%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/id1283658949?mt=8"
+                  target="_blank"
+                  >Check it in App Store</a
+                >
+              </li>
+            </span>
+          </div>
+          <!--//item-->
+          <div class="item">
+            <span class="project-title"><a href="#hook">IDAPP</a></span>
+            -
+            <span class="project-tagline"
+              >An application that lets you collect your social networking
+              accounts in one place so you can easily reach and find other
+              people easily and follow them up
+              <li>
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.idapp&hl=en"
+                  target="_blank"
+                  >Check it in Google Play</a
+                >
+              </li>
+            </span>
+          </div>
+          <!--//item-->
+        </section>
+        <!--//section-->
+
+        <section class="skills-section section">
+          <h2 class="section-title">
+            <span class="icon-holder"><i class="fas fa-rocket"></i></span>Skills
+          </h2>
+          <div class="skillset">
+            <div class="item">
+              <h3 class="level-title">React-Native</h3>
+              <div class="progress level-bar">
+                <div
+                  class="progress-bar theme-progress-bar"
+                  role="progressbar"
+                  style="width: 90%"
+                  aria-valuenow="90"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <!--//item-->
+
+            <div class="item">
+              <h3 class="level-title">Javascript</h3>
+              <div class="progress level-bar">
+                <div
+                  class="progress-bar theme-progress-bar"
+                  role="progressbar"
+                  style="width: 80%"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <!--//item-->
+
+            <div class="item">
+              <h3 class="level-title">Swift</h3>
+              <div class="progress level-bar">
+                <div
+                  class="progress-bar theme-progress-bar"
+                  role="progressbar"
+                  style="width: 30%"
+                  aria-valuenow="40"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+
+            <!--//item-->
+
+            <div class="item">
+              <h3 class="level-title">Research &amp; Problem Solving</h3>
+              <div class="progress level-bar">
+                <div
+                  class="progress-bar theme-progress-bar"
+                  role="progressbar"
+                  style="width: 98%"
+                  aria-valuenow="98"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <!--//item-->
+
+            <div class="item">
+              <h3 class="level-title">Communication &amp; Team workability</h3>
+              <div class="progress level-bar">
+                <div
+                  class="progress-bar theme-progress-bar"
+                  role="progressbar"
+                  style="width: 100%"
+                  aria-valuenow="100"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+
+            <!--//item-->
+          </div>
+        </section>
+        <!--//skills-section-->
+      </div>
+      <!--//main-body-->
+    </div>
+
+    <!--//footer-->
+  </body>
+</html>
+
+<!-- <footer class="footer">
+        <div class="text-center"> -->
+<!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other commercial license options via our website: themes.3rdwavemedia.com */-->
+<!-- <small class="copyright"
+            >Designed with <i class="fas fa-heart"></i> by
+            <a href="http://themes.3rdwavemedia.com" target="_blank"
+              >Xiaoying Riley</a
+            >
+            for developers</small
+          >
+        </div>
+      </footer> -->
