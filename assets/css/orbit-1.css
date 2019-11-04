@@ -48,9 +48,9 @@ p {
 
 .wrapper {
   background: #42a8c0;
-  max-width: 960px;
+  /* max-width: 960px; */
   margin: 0 auto;
-  margin-top: 30px;
+  /* margin-top: 30px; */
   position: relative;
   -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
@@ -185,8 +185,8 @@ p {
 
 .main-wrapper {
   background: #fff;
-  /* padding: 20px; */
-  padding: 60px;
+  padding: 20px;
+  /* padding: 60px; */
   padding-right: 300px;
 }
 
